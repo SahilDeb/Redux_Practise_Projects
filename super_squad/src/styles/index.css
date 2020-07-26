@@ -1,0 +1,34 @@
+body {
+  background-image: url('../assets/background.jpg');
+  height: 100%;
+  background-size: cover;
+  background-repeat: none;
+  opacity: 0.8;
+}
+
+.app {
+  text-align: center;
+  padding: 5%;
+}
+
+.left-alignment {
+  float: left;
+}
+
+.center-alignment {
+  float: none;
+}
+
+.right-alignment {
+  float: right;
+}
+
+.right-button {
+  cursor: pointer;
+  float: right;
+  margin-left: 10px;
+}
+
+.list-item {
+  display: inline-block;
+}

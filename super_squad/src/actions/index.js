@@ -1,9 +1,16 @@
-export const ADD_CHARACTER = "add_character";
+export const ADD_HEROES = "add_character";
+export const REMOVE_HEROES = "add_heroes";
 
-export function addCharacterById(id) {
-  const action = {
-    type: ADD_CHARACTER,
+export const addHeroesById = id => {
+  return {
+    type: ADD_HEROES,
     id
-  }
-  return action;
-}
+  };
+};
+
+export const removeHeroesById = id => {
+  return {
+    type: REMOVE_HEROES,
+    id
+  };
+};
